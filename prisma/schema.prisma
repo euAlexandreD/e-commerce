@@ -14,7 +14,7 @@ datasource db {
 }
 
 model Category {
-  id Strig @id @default(uuid())
+  id String @id @default(uuid())
   name String
   slug String
   imageUrl String
