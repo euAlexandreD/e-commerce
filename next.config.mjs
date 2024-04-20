@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {'https://www.google-analytics.com': 'server'};
 
 export default nextConfig;
